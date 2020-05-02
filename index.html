@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/all.css">
+    <link rel="stylesheet" href="css/s-col.css">
+    <link rel="stylesheet" href="css/t-col.css">
+    <link rel="stylesheet" href="css/o-col.css">
+    <link rel="stylesheet" href="css/default-col.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script defer src="js/jquery-3.4.1.min.js"></script>
+    <script defer src="js/bootstrap.min.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script>
+        new WOW().init();
+    </script>
+    <script defer src="js/main.js"></script>
+    <title>Fluentend-home</title>
+</head>
+<body>
+    <!-- Start the navbar -->
+    <nav class="navbar navbar-expand-md fixed-top navbar-dark bg-dark">
+        <div class="container-lg">
+            <a class="navbar-brand" href="#">Fluent<span>end</span></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+        
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <!-- Start UL Items -->
+                <ul class="navbar-nav nav-pills ml-auto justify-content-center">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="index.html">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="portfolio.html">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled" href="#">Disabled</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Info
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#">Articles</a>
+                        <a class="dropdown-item" href="#">About me</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#">Contact Me</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section class="opt-box">
+        <div class="opt-color">
+            <h5 class="text-center">Choose Color</h5>
+            <ul class="list-unstyled">
+                <li data-value="css/default-col.css"></li>
+                <li data-value="css/s-col.css"></li>
+                <li data-value="css/t-col.css"></li>
+                <li data-value="css/o-col.css"></li>
+            </ul>
+        </div>
+        <i class="fa fa-cogs fa-2x icon" aria-hidden="true"></i>
+    </section>    
+
+
+    <!-- The Slider Code -->
+    <div id="mySlide" class="carousel slide hidden-xs" data-ride="carousel">
+        <!-- The Indicators -->
+        <ol class="carousel-indicators">
+            <li data-target="#mySlide" data-slide-to="0" class="active"></li>
+            <li data-target="#mySlide" data-slide-to="1"></li>
+            <li data-target="#mySlide" data-slide-to="2"></li>
+        </ol>
+        <!-- The Structure of the slider -->
+        <div class="carousel-inner">
+            <!-- Three items bigening -->
+            <div class="carousel-item active">
+            <img src="images//1.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-block">
+                <h5>Front-End developer</h5>
+                <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+            </div>
+            </div>
+            <div class="carousel-item">
+            <img src="images/2.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-block">
+                <h5>Back-End developer</h5>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </div>
+            </div>
+            <div class="carousel-item">
+            <img src="images/3.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-block">
+                <h5>UI/UX designer</h5>
+                <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+            </div>
+            </div>
+        </div>
+        <!-- Slider controls -->
+        <a class="carousel-control-prev" href="#mySlide" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#mySlide" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
+
+    <!-- Start the first section -->
+    <section class="container text-center sec1 wow heartBeat" data-wow-duration="1s" data-wow-offset="300">
+        <h1>What is <span>fluentend</span> website</h1>
+        <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit commodi incidunt tenetur ab! Cupiditate culpa recusandae maxime similique deserunt optio officia corporis dolore fuga, non ratione sit pariatur voluptas dolorem.</p>
+    </section>
+    <!-- Start the Features section -->
+    <article>
+        <div class="feats text-center">
+            <div class="container">
+                <h2>Know Our Features</h2>
+                <div class="row">
+                    <div class="col-lg-3 col-md-6 sub-feat wow bounceInLeft" data-wow-duration="1s" data-wow-offset="310">
+                        <svg class="bi bi-laptop" width="3em" height="3em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" d="M13.5 3h-11a.5.5 0 00-.5.5V11h12V3.5a.5.5 0 00-.5-.5zm-11-1A1.5 1.5 0 001 3.5V12h14V3.5A1.5 1.5 0 0013.5 2h-11z" clip-rule="evenodd"/>
+                        <path d="M0 12h16v.5a1.5 1.5 0 01-1.5 1.5h-13A1.5 1.5 0 010 12.5V12z"/>
+                        </svg>
+                        <h3>Responsive</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi unde sed neque, hic obcaecati eum itaque debitis omnis consectetur magnam dolor sapiente maxime!</p>
+                    </div>
+                    <div class="col-lg-3 col-md-6 sub-feat wow bounceInUp" data-wow-duration="1s" data-wow-offset="310">
+                        <svg class="bi bi-cloud" width="3em" height="3em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" d="M4.887 7.2l-.964-.165A2.5 2.5 0 103.5 12h10a1.5 1.5 0 00.237-2.981L12.7 8.854l.216-1.028a4 4 0 10-7.843-1.587l-.185.96zm9.084.341a5 5 0 00-9.88-1.492A3.5 3.5 0 103.5 13h9.999a2.5 2.5 0 00.394-4.968c.033-.16.06-.324.077-.49z" clip-rule="evenodd"/>
+                        </svg>
+                        <h3>Speed</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi unde sed neque, hic obcaecati eum itaque debitis omnis consectetur magnam dolor sapiente maxime!</p>
+                    </div>
+                    <div class="col-lg-3 col-md-6 sub-feat wow bounceInRight" data-wow-duration="1s" data-wow-offset="310">
+                        <svg class="bi bi-grid" width="3em" height="3em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" d="M1 2.5A1.5 1.5 0 012.5 1h3A1.5 1.5 0 017 2.5v3A1.5 1.5 0 015.5 7h-3A1.5 1.5 0 011 5.5v-3zM2.5 2a.5.5 0 00-.5.5v3a.5.5 0 00.5.5h3a.5.5 0 00.5-.5v-3a.5.5 0 00-.5-.5h-3zm6.5.5A1.5 1.5 0 0110.5 1h3A1.5 1.5 0 0115 2.5v3A1.5 1.5 0 0113.5 7h-3A1.5 1.5 0 019 5.5v-3zm1.5-.5a.5.5 0 00-.5.5v3a.5.5 0 00.5.5h3a.5.5 0 00.5-.5v-3a.5.5 0 00-.5-.5h-3zM1 10.5A1.5 1.5 0 012.5 9h3A1.5 1.5 0 017 10.5v3A1.5 1.5 0 015.5 15h-3A1.5 1.5 0 011 13.5v-3zm1.5-.5a.5.5 0 00-.5.5v3a.5.5 0 00.5.5h3a.5.5 0 00.5-.5v-3a.5.5 0 00-.5-.5h-3zm6.5.5A1.5 1.5 0 0110.5 9h3a1.5 1.5 0 011.5 1.5v3a1.5 1.5 0 01-1.5 1.5h-3A1.5 1.5 0 019 13.5v-3zm1.5-.5a.5.5 0 00-.5.5v3a.5.5 0 00.5.5h3a.5.5 0 00.5-.5v-3a.5.5 0 00-.5-.5h-3z" clip-rule="evenodd"/>
+                        </svg>
+                        <h3>Flixeble</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi unde sed neque, hic obcaecati eum itaque debitis omnis consectetur magnam dolor sapiente maxime!</p>
+                    </div>
+                    <div class="col-lg-3 col-md-6 sub-feat wow wow bounceInDown" data-wow-duration="1s" data-wow-offset="310">
+                        <svg class="bi bi-shield-shaded" width="3em" height="3em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" d="M5.443 1.991a60.17 60.17 0 00-2.725.802.454.454 0 00-.315.366C1.87 7.056 3.1 9.9 4.567 11.773c.736.94 1.533 1.636 2.197 2.093.333.228.626.394.857.5.116.053.21.089.282.11A.73.73 0 008 14.5c.007-.001.038-.005.097-.023.072-.022.166-.058.282-.111.23-.106.525-.272.857-.5a10.197 10.197 0 002.197-2.093C12.9 9.9 14.13 7.056 13.597 3.159a.454.454 0 00-.315-.366c-.626-.2-1.682-.526-2.725-.802C9.491 1.71 8.51 1.5 8 1.5c-.51 0-1.49.21-2.557.491zm-.256-.966C6.23.749 7.337.5 8 .5c.662 0 1.77.249 2.813.525a61.09 61.09 0 012.772.815c.528.168.926.623 1.003 1.184.573 4.197-.756 7.307-2.367 9.365a11.191 11.191 0 01-2.418 2.3 6.942 6.942 0 01-1.007.586c-.27.124-.558.225-.796.225s-.526-.101-.796-.225a6.908 6.908 0 01-1.007-.586 11.192 11.192 0 01-2.417-2.3C2.167 10.331.839 7.221 1.412 3.024A1.454 1.454 0 012.415 1.84a61.11 61.11 0 012.772-.815z" clip-rule="evenodd"/>
+                            <path d="M8 2.25c.909 0 3.188.685 4.254 1.022a.94.94 0 01.656.773c.814 6.424-4.13 9.452-4.91 9.452V2.25z"/>
+                        </svg>
+                        <h3>Powerful Content</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi unde sed neque, hic obcaecati eum itaque debitis omnis consectetur magnam dolor sapiente maxime!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </article>
+
+    <!-- Start the Testmonials section -->
+    <article class="container text-center wow bounceOut" data-wow-duration="1s" data-wow-offset="400">
+        <!-- The slide -->
+        <div id="Slide_test" class="carousel slide" data-ride="carousel">
+        <!-- The Structure of the slider -->
+            <div class="carousel-inner">
+                <!-- Three items bigening -->
+                <div class="carousel-item active">
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempora quibusdam reiciendis officiis necessitatibus ratione quia sapiente molestias deleniti eveniet beatae. Ipsa saepe expedita quam deserunt consequatur beatae</p>
+                    <span>Ibrahim Khalid</span>
+                </div>
+                <div class="carousel-item">
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempora quibusdam reiciendis officiis necessitatibus ratione quia sapiente molestias deleniti eveniet beatae. Ipsa saepe expedita quam deserunt consequatur beatae</p>
+                    <span>Steve Jobs</span>
+                </div>
+                <div class="carousel-item">
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempora quibusdam reiciendis officiis necessitatibus ratione quia sapiente molestias deleniti eveniet beatae. Ipsa saepe expedita quam deserunt consequatur beatae</p>
+                    <span>Bill Gates</span>
+                </div>
+            </div>
+            <!-- The Indicators -->
+            <ol class="carousel-indicators">
+                <li data-target="#Slide_test" data-slide-to="0" class="active">
+                    <img src="images/avatar-1.png" alt="">
+                </li>
+                <li data-target="#Slide_test" data-slide-to="1">
+                    <img src="images/avatar-3.png" alt="">
+                </li>
+                <li data-target="#Slide_test" data-slide-to="2">
+                    <img src="images/avatar-1.png" alt="">
+                </li>
+            </ol>
+        </div>
+    </article>
+    <section class="text-center options">
+        <div class="container">
+        <h2 class="h22">Websites Prices</h2>
+        <div class="row">
+            <div class="col-lg-3 col-sm-6 col-xs-12 wow bounceInUp" data-wow-duration="1s" data-wow-offset="450">
+                <div class="div-o">
+                    <h3 class="text-primary">Basic Website 1 Page</h3>
+                    <p class="mx-auto">20$</p>
+                    <ul class="list-unstyled">
+                        <li>1 Page</li>
+                        <li>Delivery in 28 Hours</li>
+                        <li>Responsive Design</li>
+                        <li>Revisions = 2</li>
+                        <li>Source file = no</li>
+                    </ul>
+                    <a href="#" class="btn btn-primary">Order now</a>
+                </div>
+            </div>
+            
+            <div class="col-lg-3 col-sm-6 col-xs-12 wow bounceInDown" data-wow-duration="1s" data-wow-offset="450">
+                <div class="div-o">
+                    <h3 class="text-success">High Basic Website</h3>
+                    <p class="mx-auto">30$</p>
+                    <ul class="list-unstyled">
+                        <li>Up To 3 Pages</li>
+                        <li>Delivery in 28 Hours</li>
+                        <li>Responsive Design</li>
+                        <li>Revisions = 2</li>
+                        <li>Source file = no</li>
+                    </ul>
+                    <a href="#" class="btn btn-success">Order now</a>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-sm-6 col-xs-12 wow bounceInUp" data-wow-duration="1s" data-wow-offset="450">
+                <div class="div-o">
+                    <h3 class="text-danger">With Landing Page</h3>
+                    <p class="mx-auto">45$</p>
+                    <ul class="list-unstyled">
+                        <li>Up To 5 Pages</li>
+                        <li>Delivery in 28 Hours</li>
+                        <li>Responsive Design</li>
+                        <li>Revisions = 3</li>
+                        <li>Source file = yes</li>
+                    </ul>
+                    <a href="#" class="btn btn-danger">Order now</a>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-sm-6 col-xs-12 wow bounceInDown" data-wow-duration="1s" data-wow-offset="450">
+                <div class="div-o">
+                    <h3 class="text-warning">With Landing Page + Form</h3>
+                    <p class="mx-auto">60$</p>
+                    <ul class="list-unstyled">
+                        <li>Up To 7 Pages</li>
+                        <li>Delivery in 28 Hours</li>
+                        <li>Responsive Design</li>
+                        <li>Revisions = 3</li>
+                        <li>Source file = yes</li>
+                    </ul>
+                    <a href="#" class="btn btn-warning">Order now</a>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+    <section class="text-center team">
+        <div class="container">
+            <h2 class="h1">Our Amaizing Team</h2>
+            <div class="row">
+                <div class="col-lg-3 wow flipOutX" data-wow-duration="1s" data-wow-offset="200">
+                    <div class="imges">
+                        <img class="rounded-circle" src="images/steve.jpg" alt="">
+                        <h4>Steve Jobs</h4>
+                        <p>This Is The Man Who Change The World With His Apple Products</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 wow flipOutX" data-wow-duration="1s" data-wow-offset="200">
+                    <div class="imges">
+                        <img class="rounded-circle" src="images/marissa.jpg" alt="">
+                        <h4>Marissa Mayer</h4>
+                        <p>This Is Amazing Hacker Woman With A Much Knowledge In Hacking Systems</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 wow flipOutX" data-wow-duration="1s" data-wow-offset="200">
+                    <div class="imges">
+                        <img class="rounded-circle" src="images/chris.jpg" alt="">
+                        <h4>Chris Coyier</h4>
+                        <p>This Is Chris Coyier The Founder Of The Amazing Website Css-Tricks</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 wow flipOutX" data-wow-duration="1s" data-wow-offset="200">
+                    <div class="imges">
+                        <img class="rounded-circle" src="images/leah.jpg" alt="">
+                        <h4>Leah Culver</h4>
+                        <p>This Is Amazing Hacker Woman With A Much Knowledge In Hacking Systems</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="text-center subscribe">
+        <div class="container">
+            <h2 class="h1">Keep In Touch</h2>
+            <p class="lead">To be allways know with our latest news inter your email down!</p>
+                <form action="#" class="form-inline wow lightSpeedIn"  data-wow-duration="1s" data-wow-offset="200">
+                    <input class="form-control form-control-lg" type="email" placeholder="Write Your Email">
+                    <button class="btn btn-danger btn-lg">Subscribe</button>
+                </form>
+            </div>
+    </section>
+    <section class="skills">
+        <div class="container">
+            <h2 class="h1 text-center">My Skills</h2>
+            <div class="progress">
+                <div class="progress-bar progress-bar-striped progress-bar bg-success" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width: 90%;">Html / Css</div>
+            </div>
+            <div class="progress">
+                <div class="progress-bar progress-bar-striped progress-bar bg-primary" role="progressbar" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100" style="width: 65%;">JavaScript</div>
+            </div>
+            <div class="progress">
+                <div class="progress-bar progress-bar-striped progress-bar bg-danger" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%;">jquery</div>
+            </div>
+            <div class="progress">
+                <div class="progress-bar progress-bar-striped progress-bar bg-warning" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width: 50%;">Bootstrap</div>
+            </div>
+            <div class="progress">
+                <div class="progress-bar progress-bar-striped progress-bar bg-info active" role="progressbar" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100" style="width: 25%;">Wireframig</div>
+            </div>
+        </div>
+    </section>
+    <section class="contact text-center">
+        <div class="forms">
+            <div class="container">
+                <svg class="bi bi-bell" width="3em" height="3em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M8 16a2 2 0 002-2H6a2 2 0 002 2zm.995-14.901a1 1 0 10-1.99 0A5.002 5.002 0 003 6c0 1.098-.5 6-2 7h14c-1.5-1-2-5.902-2-7 0-2.42-1.72-4.44-4.005-4.901z"/>
+                </svg>
+                <h2 class="h1">Tell us what in your mind</h2>
+                
+                <form role="form">
+                    <div class="row">
+                        <div class="col-md-6 wow slideInLeft"  data-wow-duration="1s" data-wow-offset="300">
+                            <div class="form-group">
+                                <input type="text" class="form-control" placeholder="Username">
+                            </div>
+                            <div class="form-group">
+                                <input type="text" class="form-control" placeholder="Email">
+                            </div>
+                            <div class="form-group">
+                                <input type="text" class="form-control" placeholder="Phone Number">
+                            </div>
+                        </div>
+                        <div class="col-md-6 wow slideInRight"  data-wow-duration="1s" data-wow-offset="300">
+                            <div class="form-group">
+                                <textarea class="form-control" placeholder="Write A Message"></textarea>
+                            </div>
+                            <button class="btn btn-primary btn-lg btn-block">Contact Us</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <ul class="list-unstyled three-columns">
+                        <h3 class="text-uppercase">any title</h3>
+                        <li>Testing</li>
+                        <li>Testing</li>
+                        <li>Testing</li>
+                        <li>Testing</li>
+                        <li>Testing</li>
+                        <li>Testing</li>
+                        <li>Testing</li>
+                        <li>Testing</li>
+                        <li>Testing</li>
+                    </ul>
+                </div>
+                <div class="col-lg-6">
+                    <div class="icons">
+                        <i class="fab fa-facebook-square fa-3x"></i>
+                        <i class="fab fa-twitter-square fa-3x"></i>
+                        <i class="fab fa-instagram-square fa-3x"></i>
+                        <i class="fab fa-linkedin fa-3x"></i>
+                        <i class="fab fa-youtube-square fa-3x"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <section class="loading"></section>
+
+</body>
+</html>

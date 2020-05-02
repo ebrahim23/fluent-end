@@ -1,0 +1,239 @@
+* {
+    box-sizing: border-box;
+}
+/* body{overflow: hidden;} */
+.navbar-brand {
+    font-size: 27px;
+}
+#mySlide {
+    margin-top: 66px;
+}
+@media(min-width: 900px){
+    .carousel {
+        height: 516px;
+    }
+    .carousel img {
+        height: 516px;
+    }
+    .carousel-caption {
+        bottom: 50px;
+        background-color: rgba(0, 0, 0, 0.699);
+    }
+}
+.sec1 {
+    margin-top: 50px;
+}
+.opt-box {
+    position: fixed;
+    top: 100;
+    left: 0;
+    z-index: 9999;
+}
+.opt-box .opt-color {
+    float: left;
+    background-color: #333;
+    color: #aaa;
+    padding: 10px;
+    width: 180px;
+    display: none;
+}
+.opt-box li {
+    width: 25px;
+    height: 25px;
+    display: inline-block;
+    margin-right: 5px;
+    cursor: pointer;
+}
+.opt-box li:first-child {
+    margin-left: 10px;
+}
+.opt-box .icon {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    cursor: pointer;
+}
+article .feats {
+    color: #fff;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.feats h2 {
+    margin-bottom: 50px;
+}
+.sub-feat {
+    margin-bottom: 20px;
+}
+.sub-feat h3 {
+    margin-top: 10px;
+}
+/* Start the slide testmonials */
+#Slide_test {
+    height: 230px;
+}
+#Slide_test .carousel-indicators ol {
+    position: static;
+    width: 100%;
+}
+#Slide_test .carousel-indicators li {
+    background-color: none;
+    text-indent: 0;
+    background-clip: border-box;
+    border: none;
+    width: 70px;
+    height: 70px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+#Slide_test .carousel-indicators li img {
+    max-width: 100%;
+    max-height: 100%;
+}
+/* Mobile Media */
+@media(max-width: 767px){
+    .sec1 {
+        padding-top: 50px;
+    }
+    #Slide_test .carousel-indicators li img {
+        margin-top: 70px;
+    }
+}
+/* Start Option */
+section.options {
+    background-color: #eee;
+    margin-top: 50px;
+    margin-bottom: 0;
+}
+.options .div-o {
+    background-color: #fff;
+    padding: 10px;
+    border:1px solid #DDD;
+    margin-bottom:30px;
+}
+.options .div-o p {
+    background-color: #eee;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    line-height: 50px;
+    font-size: 20px;
+    font-weight: bold;
+    transition: .5s ease-in-out;
+}
+.options .div-o:hover p {
+    transform: rotate(360deg)
+}
+.options .div-o ul {line-height:250%;font-size:18px}
+
+/* Start the team section */
+.team {
+    background: url(../images/gif.gif) no-repeat center fixed;
+    background-size: cover;
+    color: #fff;
+    padding: 50px 0;
+    margin-top: 0;
+}
+.team h2 {
+    margin-bottom: 50px;
+}
+.team p {
+    font-size: 14px;
+}
+.imges {
+    transition: .5s ease-in-out;
+}
+.team .imges:hover {
+    transform: scale(1.2);
+}
+.team img {
+    margin-bottom: 20px;
+    
+}
+
+/* Start subscribe section */
+.subscribe {
+    padding-top: 50px;
+    padding-bottom: 50px
+}
+.form-control {border-radius: 0; margin-right: -5px;}
+.form-inline {display: block; margin-top: 30px;}
+.form-inline .btn {border-radius: 0;}
+
+/* Start Skills Section */
+.skills {
+    height: 280px;
+    margin-top: 50px;
+}
+.progress {
+    height: 30px;
+    margin-bottom: 10px;
+}
+.progress-bar {
+    height: 30px;
+    margin-bottom: 10px;
+    text-align: left;
+    text-indent: 10px;
+    font-weight: bold;
+}
+
+/* Start News Section */
+.contact {
+    background: url(../images/contact.jpg) no-repeat center center fixed;
+    margin-top: 50px;
+    color: #fff;
+    padding: 50px;
+}
+.contact .h1 {
+    margin-bottom: 30px;
+    color: #aaa;
+}
+.contact textarea {
+    height: 82px;
+}
+
+/* Start Footer Section */
+footer {
+    background-color: rgb(0, 0, 0);
+    color: #fff;
+    padding: 30px;
+}
+footer .three-columns {
+    overflow: hidden;
+}
+footer .three-columns li {
+    width: 33.3%;
+    float: left;
+    opacity: .7;
+}
+footer .three-columns li:hover {
+    opacity: 1;
+    cursor: pointer;
+}
+footer i {
+    margin-right: 1em;
+    opacity: 1;
+    cursor: pointer;
+}
+footer i:nth-of-type(1):hover {
+    color: #3b5998;
+}
+footer i:nth-of-type(2):hover {
+    color: #00aced;
+}
+footer i:nth-of-type(3):hover {
+    color: #c32aa3;
+}
+footer i:nth-of-type(4):hover {
+    color: #007bb6;
+}
+footer i:nth-of-type(5):hover {
+    color: #bb0000;
+}
+
+@media(max-width: 767px){
+    .hidden-xs {
+        display: none;
+    }
+}

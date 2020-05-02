@@ -1,0 +1,15 @@
+span,
+footer h3 {
+    color: #007BFF;
+}
+
+.opt-box .opt-color,
+.opt-box .icon {
+    
+    border: #007BFF 3px solid;
+}
+
+.opt-box li,
+article .feats {
+    background-color: #007BFF;
+}
